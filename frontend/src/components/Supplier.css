@@ -1,0 +1,137 @@
+.supplier__main {
+    text-align: start;
+}
+
+.supplier__main h1 {
+    text-align: center;
+    font-size: 3.0rem;
+    font-weight: 600;
+}
+
+.supplier-sections__container {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .supplier-sections__container {
+        justify-content: flex-start;
+    }
+    .suppliers-list__container h2 {
+        text-align: start;
+    }
+}
+
+.supplier-sect {
+    width: 50%;
+    min-width: 400px;
+    padding: 40px 20px;
+}
+
+@media (min-width: 899px) {
+    .supplier-form__container {
+        border-right: 1px solid black;
+    }
+}
+
+.supplier-form__container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.supplier-form__container form span {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.supplier-form__container form input {
+    width: 50%;
+    min-width: 80px;
+}
+
+/* suppliers list */
+
+.suppliers-list__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.suppliers-list__container h2 {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.suppliers-list__container .suppliers__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.suppliers-list__container .suppliers__container span {
+    font-size: 1.6rem;
+}
+
+.supplier-btns__container {
+    display: flex;
+    gap: 20px;
+}
+
+.supplier {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.add-supplier__btn {
+    width: 160px;
+    height: 50px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: 1px solid black;
+    color: white;
+    background-color: #4495ffee;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 200ms ease;
+}
+
+.add-supplier__btn:hover {
+    transform: scale(1.03);
+    transition: transform 200ms ease;
+}
+
+.unique-btn {
+    width: 25px;
+    height: 25px;
+    background-color: #4495ffee;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    transition: transform 200ms ease;
+    cursor: pointer;
+} 
+
+.unique-btn:hover {
+    transform: scale(1.03);
+    transition: transform 200ms ease;
+} 
+
+.delete-btn {
+    background-color: #ec5163;
+}
+
+@media (max-width: 500px) {
+    .supplier-sections__container {
+        justify-content: flex-start;
+    }
+    .suppliers-list__container h2 {
+        text-align: start;
+    }
+}
+
+

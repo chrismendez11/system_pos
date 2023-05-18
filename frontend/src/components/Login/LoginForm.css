@@ -1,0 +1,91 @@
+.login__form {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: calc(50vh - 280px);
+    padding: 20px;
+    box-shadow: 1px -1px 9px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login__form h2 {
+    font-size: 2.0rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.login__form p {
+    font-size: 2.0rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.login-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-cont label {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.login-cont input {
+    width: 100%;
+    height: 35px;
+    font-size: 1.6rem;
+    padding: 0 10px;
+    border: 1px solid #DDDD;
+    border-radius: 4px;
+}
+
+.login-cont input:focus {
+    outline: none;
+}
+
+.login__btn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.bxs-circle {
+    color: green;
+}
+
+.credentials-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: #DFF6FF;
+}
+
+.credentials-cont h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.credentials-cont p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.credentials-cont span {
+    font-style: normal;
+}

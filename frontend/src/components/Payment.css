@@ -1,0 +1,101 @@
+.payment__main {
+    text-align: start;
+}
+
+.payment__main h1 {
+    text-align: center;
+    font-size: 3.0rem;
+    font-weight: 600;
+}
+
+.payment-sections__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.payment-form__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.payment-form__container .payment-form__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.payment-form__container .payment-form__row div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.payment-form__container .payment-form__row div span {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+/* payments-info__container */
+
+.payments-info__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.payments-info__title {
+    background-color: #424242;
+    display: flex;
+}
+
+.payments-info__title div {
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+    border-right: 1px solid black;
+    padding: 5px 0;
+}
+
+.payments-info {
+    background-color: #eeeeee;
+    display: flex;
+    cursor: pointer;
+}
+
+.payments-info div {
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: black;
+    border-right: 1px solid black;
+    padding: 5px 0;
+}
+
+/* payment-btns__container */
+
+.payment-btns__container {
+    padding: 0;
+}
+
+.add-payment__btn {
+    width: 100px;
+    height: 40px;
+    background-color: #4495ffee;
+    color: white;
+    border: 1px solid black;
+    transition: transform 200ms ease;
+    cursor: pointer;
+}
+
+.add-payment__btn:hover {
+    transform: scale(1.03);
+    transition: transform 200ms ease;
+}
